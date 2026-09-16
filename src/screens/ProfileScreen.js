@@ -37,9 +37,7 @@ export default function ProfileScreen({ navigation }) {
 
       <TouchableOpacity
         style={styles.logoutButton}
-        onPress={() =>
-          navigation.reset({ index: 0, routes: [{ name: 'Onboarding' }] })
-        }
+        onPress={() => navigation.navigate('Onboarding')}
       >
         <Ionicons name="log-out-outline" size={20} color={colors.danger} />
         <Text style={styles.logoutText}>Sair</Text>

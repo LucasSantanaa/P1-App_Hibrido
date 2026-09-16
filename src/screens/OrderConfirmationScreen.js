@@ -24,12 +24,7 @@ export default function OrderConfirmationScreen({ navigation }) {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() =>
-          navigation.reset({
-            index: 0,
-            routes: [{ name: 'HomeTab' }],
-          })
-        }
+        onPress={() => navigation.navigate('HomeTab')}
       >
         <Text style={styles.buttonText}>Voltar para o início</Text>
       </TouchableOpacity>
