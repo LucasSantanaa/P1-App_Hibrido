@@ -19,8 +19,8 @@ export default function ProfileScreen({ navigation }) {
         <View style={styles.avatar}>
           <Ionicons name="person" size={34} color={colors.background} />
         </View>
-        <Text style={styles.name}>Dupla SaborExpress</Text>
-        <Text style={styles.email}>Lucas@exemplo.com</Text>
+        <Text style={styles.name}>SaborExpress</Text>
+  <Text style={styles.email}>Lucas@exemplo.com</Text>
       </View>
 
       <View style={styles.optionsList}>
